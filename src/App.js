@@ -24,13 +24,12 @@ class App extends Component {
     let sidedrawer;
     let backdrop;
     if(this.state.SideDrawerOpen){
-      sidedrawer = <SideDrawer show={this.state.SideDrawerOpen} />;
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
     return (
       <div style={{height: '100%'}}>
         <Toolbar drawerclickhandler =  {this.drawerToggleClickHandler}/>
-        {sidedrawer}
+        <SideDrawer show={this.state.SideDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '76px'}}>
           <p>Contenido de la página</p>
