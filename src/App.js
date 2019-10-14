@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Youtube from './components/Youtube/youtube';
 
 class App extends Component {
 
@@ -21,7 +22,6 @@ class App extends Component {
   };
 
   render () {
-    let sidedrawer;
     let backdrop;
     if(this.state.SideDrawerOpen){
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
@@ -34,6 +34,7 @@ class App extends Component {
         <main style={{marginTop: '76px'}}>
           <p>Contenido de la página</p>
         </main>
+        <Youtube />
       </div>
     );
   }
