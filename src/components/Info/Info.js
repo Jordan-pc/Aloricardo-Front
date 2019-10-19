@@ -9,18 +9,17 @@ const Info = props => (
             </div>
             <div className = 'sec'>
                 <h4>Ubicación</h4>
-                <p>Irarrázaval 1989 oficina 205 norte</p>
+                <p className = 'text'>Irarrázaval 1989 oficina 205 norte</p>
             </div>
             <div className = 'sec'>
                 <h4>Más información</h4>
-                <p>Célular: </p>
-                <p>Correo: </p>
+                <p className = 'text'>Célular: </p>
+                <p className = 'text'> Correo: </p>
             </div>
             <div className = 'sec'>
                 <h4>Redes Sociales</h4>
             </div>
         </div>
-
     </footer>
 );
 

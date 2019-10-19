@@ -54,7 +54,7 @@ class App extends Component {
           <main style={{marginTop: '76px'}}>
             <p>Contenido de la página</p>
           </main>
-          
+
           <Info />
         </div>
       </div>

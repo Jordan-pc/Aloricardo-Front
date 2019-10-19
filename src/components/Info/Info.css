@@ -8,7 +8,6 @@
     color: white;
     background: #262626;
     background-size: cover;
-    background-position: top center;
     margin-top: 10px;
 }
 
@@ -20,4 +19,8 @@
 .initial {
     text-align: center;
     margin-left: 50px;
+}
+.text{
+    font-size: 14px;
+    line-height: 0.5;
 }
