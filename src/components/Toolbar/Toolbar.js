@@ -14,6 +14,7 @@ const toolbar = props => (
                 <ul>
                     <li><a href="/">Horóscopo</a></li>
                     <li><a href="/">Tarot</a></li>
+                    <li><a href="/">Contactenos</a></li>
                 </ul>
             </div>
         </nav>

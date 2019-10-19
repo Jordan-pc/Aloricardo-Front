@@ -4,6 +4,9 @@ import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Youtube from './components/Youtube/youtube';
+import Info from './components/Info/Info';
+
+import './App.css'
 
 class App extends Component {
 
@@ -27,14 +30,14 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
     return (
-      <div style={{height: '100%'}}>
-        <Toolbar drawerclickhandler =  {this.drawerToggleClickHandler}/>
-        <SideDrawer show={this.state.SideDrawerOpen} />
-        {backdrop}
-        <main style={{marginTop: '76px'}}>
-          <p>Contenido de la página</p>
-        </main>
-        <Youtube />
+      <div className = 'App'>
+        <div className = 'App-content'>
+          <Toolbar drawerclickhandler =  {this.drawerToggleClickHandler}/>
+          <SideDrawer show={this.state.SideDrawerOpen} />
+          {backdrop}
+          <Youtube />
+          <Info />
+        </div>
       </div>
     );
   }
