@@ -1,0 +1,23 @@
+.Box {
+    position: absolute;
+    left: 0;
+    display: flex;
+    height: 25%;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    background: #262626;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 10px;
+}
+
+
+.sec {
+    margin-right: 150px;
+}
+
+.initial {
+    text-align: center;
+    margin-left: 50px;
+}

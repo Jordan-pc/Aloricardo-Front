@@ -36,6 +36,25 @@ class App extends Component {
           <SideDrawer show={this.state.SideDrawerOpen} />
           {backdrop}
           <Youtube />
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          <main style={{marginTop: '76px'}}>
+            <p>Contenido de la página</p>
+          </main>
+          
           <Info />
         </div>
       </div>

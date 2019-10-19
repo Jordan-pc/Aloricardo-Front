@@ -3,17 +3,22 @@ import './Info.css';
 
 const Info = props => (
     <footer>
-        <div>
-            <h3>Aloricardo</h3>
-        </div>
-        <div>
-            <h3>Ubicación</h3>
-        </div>
-        <div>
-            <h3>Más información</h3>
-        </div>
-        <div>
-            <h3>Redes Sociales</h3>
+        <div className = 'Box'>
+            <div className = 'sec'>
+                <h4 className = 'initial'>Aloricardo</h4>
+            </div>
+            <div className = 'sec'>
+                <h4>Ubicación</h4>
+                <p>Irarrázaval 1989 oficina 205 norte</p>
+            </div>
+            <div className = 'sec'>
+                <h4>Más información</h4>
+                <p>Célular: </p>
+                <p>Correo: </p>
+            </div>
+            <div className = 'sec'>
+                <h4>Redes Sociales</h4>
+            </div>
         </div>
 
     </footer>
