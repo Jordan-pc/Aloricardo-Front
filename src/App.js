@@ -5,8 +5,10 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Youtube from './components/Youtube/youtube';
 import Info from './components/Info/Info';
+import Slideshow from './components/Slider/Slider'
 
 import './App.css'
+
 
 class App extends Component {
 
@@ -35,6 +37,7 @@ class App extends Component {
           <Toolbar drawerclickhandler =  {this.drawerToggleClickHandler}/>
           <SideDrawer show={this.state.SideDrawerOpen} />
           {backdrop}
+          <Slideshow/>
           <Youtube />
           <main style={{marginTop: '76px'}}>
             <p>Contenido de la página</p>
